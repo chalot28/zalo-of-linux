@@ -1,0 +1,26 @@
+{
+  "productName": "zalo-of-linux",
+  "version": "0.1.0",
+  "identifier": "com.zalo.linux",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devUrl": "http://localhost:5173",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "Zalo of Linux",
+        "width": 1280,
+        "height": 800,
+        "decorations": false,
+        "transparent": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  }
+}
