@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "identifier": "com.zalo.linux",
   "build": {
-    "beforeDevCommand": "npm run dev",
-    "beforeBuildCommand": "npm run build",
-    "devUrl": "http://localhost:5173",
-    "frontendDist": "../dist"
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devUrl": "https://chat.zalo.me/",
+    "frontendDist": "https://chat.zalo.me/"
   },
   "app": {
     "withGlobalTauri": true,
@@ -15,8 +15,9 @@
         "title": "Zalo of Linux",
         "width": 1280,
         "height": 800,
-        "decorations": false,
-        "transparent": true
+        "decorations": true,
+        "transparent": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
       }
     ],
     "security": {

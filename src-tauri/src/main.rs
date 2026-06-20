@@ -3,7 +3,7 @@
     windows_subsystem = "windows"
 )]
 
-use tauri::{WebviewUrl, WebviewWindowBuilder};
+use tauri::WebviewWindowBuilder;
 
 fn main() {
     println!("Starting Zalo of Linux (Tauri V2 + Vite)...");
