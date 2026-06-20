@@ -1,0 +1,14 @@
+{
+  "productName": "zalo-of-linux",
+  "version": "0.1.0",
+  "identifier": "com.zalo.linux",
+  "build": {
+    "frontendDist": "public"
+  },
+  "app": {
+    "windows": [],
+    "security": {
+      "csp": null
+    }
+  }
+}

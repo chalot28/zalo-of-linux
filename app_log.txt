@@ -1,0 +1,5 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.18s
+     Running `target/debug/youtube-player`
+Starting Lightweight YouTube Kiosk...
+
+** (youtube-player:20489): WARNING **: 14:55:24.312: webkit_settings_set_enable_offline_web_application_cache is deprecated and does nothing.
